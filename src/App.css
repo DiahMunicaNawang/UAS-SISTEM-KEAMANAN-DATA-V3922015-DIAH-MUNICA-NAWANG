@@ -5,6 +5,7 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  filter: hue-rotate(180deg); /* Mengubah warna logo menjadi nuansa pink */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ff7eb9; /* Warna latar belakang menjadi pink */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +26,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ff52a8; /* Warna link menjadi nuansa pink yang lebih terang */
 }
 
 @keyframes App-logo-spin {
